@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>CardGame</title>
+  <script src="main.js" defer></script>
+</head>
+
+<body onload="load_game()">
+  <div id="page">
+    <div id="cardfield">
+      <!-- <div class="cardinstance" id="crd_1" onclick="reveal(this.id)"> -->
+      <!--   <div class="card"> -->
+      <!--     <div class="cardhead"></div> -->
+      <!--     <div class="clickbody"> -->
+      <!--       <p class="cardback">:3</p> -->
+      <!--       <p class="cardface">I must be a lord of cinder <br>Because it burns when I piss</p> -->
+      <!--     </div> -->
+      <!--   </div> -->
+      <!-- </div> -->
+      <!-- <button class="fieldbuttons" id="startbutton" onclick="start()">Start</button> -->
+      <!-- <button class="fieldbuttons" id="restartbuttno" onclick="restart()">Restart</button> -->
+    </div>
+    <div id="ui">
+      <div>
+        <h1>
+          <p id="timer">TIME</p>
+        </h1>
+      </div>
+      <div id="score">
+        <h1>
+          <div id="score_num">0</div>
+        </h1>
+      </div>
+      <button id="resetbutton" onclick="reset()">R</button>
+    </div>
+  </div>
+</body>
+
+</html>
